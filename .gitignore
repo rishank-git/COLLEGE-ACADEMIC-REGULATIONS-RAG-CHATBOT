@@ -1,0 +1,62 @@
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# =========================
+# Secrets
+# =========================
+
+.env
+.env.*
+
+# =========================
+# ChromaDB / generated data
+# =========================
+
+database/chroma/
+database/chunks.json
+
+# =========================
+# Node / Next.js
+# =========================
+
+node_modules/
+.next/
+
+# Next.js build files
+out/
+
+# =========================
+# TypeScript
+# =========================
+
+*.tsbuildinfo
+
+# =========================
+# IDE
+# =========================
+
+.vscode/
+.idea/
+
+# =========================
+# OS
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# Streamlit
+# =========================
+
+.streamlit/secrets.toml
